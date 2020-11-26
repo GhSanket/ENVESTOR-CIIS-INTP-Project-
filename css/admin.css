@@ -1,0 +1,114 @@
+body{
+
+        background-image: url('../img/bg2.png');
+        background-position: center;
+        background-size:cover;
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+   
+}
+
+
+
+
+    .main {
+        background: rgba(0, 0, 0, 0.2);
+        width:100%;
+        height: 530px;
+        border-radius: 1.5em;
+        margin-top: 5.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+
+    }
+
+
+
+
+.actions{
+
+	text-align: center;
+}
+
+#icon{
+       
+        color: white;
+        margin-top: 50px;
+        font-size: 150px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    
+
+}
+
+
+
+    #butt
+    {
+
+    	cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        width: 80%;
+        height: 50px;
+        background-image:linear-gradient(to right, #FF512F, #F09819, #FF512F);
+        border: 0;
+        font-family: 'Ubuntu', sans-serif;
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+
+
+    #butt:hover
+    {
+      background-position: right center;
+        background:linear-gradient(to right, #F09819, #EDDE5D, #F09819);
+        color: white;   
+        cursor: pointer;
+    }
+
+
+
+   .modal-header
+   {
+   	background-color:gold;
+   }
+
+    .modal-title{
+    	color:white;
+    	font-size: 40px;
+    }
+
+    .close{
+    	font-size: 50px;
+    	color:white;
+    	opacity: 1;
+    }
+
+    
+
+    .btn{
+      cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        width: 25%;
+        height: 40px;
+        border: 0;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        background-color: #2d95d6;
+    }
+    
+
+    .btn:hover{
+
+        background-position: right center;
+        background-color: #0c5e91;
+        color: white;   
+        cursor: pointer;
+    }
+    

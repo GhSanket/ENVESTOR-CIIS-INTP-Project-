@@ -1,0 +1,64 @@
+.banner1{
+
+        background-image: url('../img/imgbanner.gif');
+        background-position: center;
+        background-size:cover;
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+   
+}
+.banner2{
+
+        background-image: url('../img/invstban.gif');
+        background-position: center;
+        background-size:cover;
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+   
+}
+.banner3{
+
+        background-image: url('../img/entrpban.gif');
+        background-position: center;
+        background-size:cover;
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+   
+}
+.banner4{
+
+        background-image: url('../img/qban.gif');
+        background-position: center;
+        background-size:cover;
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+   
+}
+
+
+
+.title{
+    margin: 30px;
+    font-size: 50px;
+	font-weight: bold;
+	color: gold;
+	font-family: cursive;
+	background-image: linear-gradient(to right, #1c3f66,#1c3f66 ,#146168,#107169,#0b866a);
+    text-align: center;
+}
+.content
+{
+
+	font-size: 25px;
+	margin: 20px;
+
+}
+h4{
+	margin: 0;
+	font-size: 19px;
+	color: #7843E6;
+}

@@ -1,0 +1,246 @@
+html ,body
+{
+	height: 100%;
+	width: 100%;
+}
+ #navbar
+{
+
+
+	transition:0.5s;
+}
+.navbar 
+{
+ background-image: linear-gradient(to right, #1c3f66,#1c3f66 ,#146168,#107169,#0b866a); 
+ /* background:#1c3f66; */
+  border: none ;
+ transition: 0.5s;
+}
+
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a.active
+{
+	padding-top: 30px;
+	 color:#FFCC57;
+	 font-weight: bold;
+	 font-family:cursive;
+	font-size: 25px;
+    transition: 0.5s;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a.active
+{
+	background-image:linear-gradient(to right, #F09819 , #EDDE5D , #F09819);
+	
+	color:white;
+
+	
+}
+
+
+.navbar-default .navbar-toggle .icon-bar
+{
+	background-color: #FFCC57;
+}
+
+
+.navbar  .navbar-brand
+{
+
+margin: 0px;
+padding: 0px;
+height: 65px;
+transition: 0.2s;
+
+}
+
+
+
+.left
+{
+  height: 100vh;
+  width: 100%;
+
+}
+
+.right img
+{
+	height: 100vh;
+	width: 100%;
+}
+
+
+
+.landing-text
+{
+
+	text-align:center;
+	padding-top: 400px;
+	vertical-align: center;		
+}
+
+.landing-text .btn
+{	
+	font-size: 30px;
+	font-family: sans-serif;
+	background-image:linear-gradient(to right, #FF512F, #F09819, #FF512F);
+	color:white;
+	width: 200px;
+	height: 50px;
+	border: 1px solid white;
+    transition: 0.5s;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+
+.landing-text .btn:hover
+{
+	opacity: 1;
+	background-position: right center;
+	background-image:linear-gradient(to right, #F09819, #EDDE5D, #F09819);
+	color: white;	
+	font-size: 27px;
+	font-weight: bold;
+	font-family: sans-serif;
+	border: 1px solid #FFCC57;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url('../img/img5.jpg');
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1
+{
+	font-size: 60px;
+	font-weight: bold;
+	color: gold;
+
+	font-family: cursive;
+	background-image: linear-gradient(to right, #1c3f66,#1c3f66 ,#146168,#107169,#0b866a);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .right img{
+  	display:none;
+  }
+
+  .navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a.active
+{
+	font-size: 20px;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a.active
+{
+	background-image:linear-gradient(to left, #F09819 , #EDDE5D , #F09819);
+	
+	color:white;
+
+	
+}
+
+}
+
+
+
+
+
+
+   .modal-header
+   {
+   	background-color:gold;
+   }
+
+    .modal-title{
+    	color:white;
+    	font-size: 40px;
+    	text-align:center ;
+    }
+
+    .close{
+    	font-size: 50px;
+    	color:white;
+    	opacity: 1;
+    }
+
+   .username,.password {
+    width:85%;
+    height:60px ;
+    color:black;
+    font-weight:bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background:white;
+    opacity: 0.8;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid gold;
+    text-indent: 10px;
+    font-family:sans-serif;
+    text-align:left ;
+    margin-top: 15px;
+    }
+    
+
+     .username:focus, .password:focus  {
+        border: 3px solid gold !important;
+        opacity: 1;
+
+        
+    }
+
+    #adlog{
+      cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        width: 25%;
+        height: 40px;
+        border: 0;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        background-color: #2d95d6;
+    }
+    
+
+    #adlog:hover{
+
+        background-position: right center;
+        background-color: #0c5e91;
+        color: white;   
+        cursor: pointer;
+    }
+    
