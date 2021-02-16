@@ -1,3 +1,5 @@
 # ENVESTOR-Converting-Ideas-Into-Startups
 The main aim of the project is to connect Investors and Entrepreneurs directly. Most of the out of the box ideas are just inside the box due to financial problems or some of the ideas just don't reach out to right investors. Also, some of the investors don't get good projects for investing i.e to provide funds or some of the investors invest into unprofitable projects. All these problems are solved by our project called Envestors(Entrepreneurs & Investors ).
 The project provides login for both Entrepreneurs as well as Investors.The people who are interested in providing funds could register as investors and people who need funds for startups could register as Entrepreneurs.Once Logged in entrepreneurs can post their ideas onto the website which can be viewed by investors. If the investor likes the idea they can click on the connect button and get connected with the idealist. There’s a how it works page where users could get all the information on how to use it. 
+
+We hav used PHP, Sql, HTML, CSS, Bootstrap, Javascript to build this website.
